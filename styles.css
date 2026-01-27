@@ -1,0 +1,17 @@
+#home{
+    height: 100vh;
+    background: linear-gradient(to right, #B0E0E6, #8F00FF );
+    color: white;
+}
+#skills{
+    margin-top:70px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+footer {
+    margin-top: auto;
+}
