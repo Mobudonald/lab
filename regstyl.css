@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #B0E0E6, #8F00FF );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 50px;
+  width: 350px;
+  border-radius: 16px;   /* MORE ROUNDED */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;   /* ROUND INPUTS */
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 22px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 12px;   /* ROUND BUTTON */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a252f;
+}
